@@ -1,0 +1,81 @@
+body {
+  background-color: azure;
+}
+.weather-app {
+  padding: 5px;
+  margin: 2px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.search-input {
+  display: block;
+  font-weight: 100;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+.button.current-location {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+}
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.city,
+.date {
+  display: block;
+  font-size: 35px;
+}
+.search-form {
+  display: block;
+  margin: 0em;
+  font-size: 20px;
+}
+
+.temperature,
+.units {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 35px;
+  position: relative;
+  padding: 2px;
+}
+
+li {
+  display: block;
+  margin: auto;
+  font-size: 25px;
+}
+.col-12 {
+  font-size: 30px;
+}
+.first-day,
+.second-day,
+.third-day,
+.fourth-day,
+.fifth-day {
+  background-color: white;
+  box-shadow: 5px;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border-radius: 1px;
+  margin: 0 0 20px;
+  padding: 5px 0;
+}
+.high-low {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 35px;
+}
+.emoji {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
